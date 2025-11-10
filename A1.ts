@@ -12,12 +12,12 @@ const RADIUS: number = 5.6;
 const PI: number = 3.14;
 
 // formula/calculation of area
-let formula: number = PI * RADIUS * RADIUS;
+const FORMULA: number = PI * RADIUS * RADIUS;
 
 // print radius
 console.log("Radius: " + RADIUS + "cm");
 
 // print area
-console.log("The area of a circle with a radius of " + RADIUS + " cm is " + formula + " cm²");
+console.log("The area of a circle with a radius of " + RADIUS + " cm is " + FORMULA + " cm²");
 
 console.log("\nDone.");
